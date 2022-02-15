@@ -53,7 +53,7 @@
         },
         "SonarQube Version": {
             "type": "string",
-            "defaultValue": "8.5.1",
+            "defaultValue": "8.9.7",
             "metadata": {
                 "description": "Specific version of SQ to download e.g. 7.9.1 or 8.0. Leave blank or set to 'Latest' for most recent version."
             }
@@ -98,7 +98,7 @@
                     ],
                     "properties": {
                         "alwaysOn": false,
-                        "javaVersion": "11",
+                        "javaVersion": "8",
                         "javaContainer": "TOMCAT",
                         "javaContainerVersion": "9.0"
                     }
